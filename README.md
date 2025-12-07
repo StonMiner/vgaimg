@@ -29,3 +29,15 @@ VGAimg is supposed to be rendered horizontally,like my example in java. Everytim
 
 Well right now there is no picture editor that saves to this format so you have to use a hex editor,but first you need to compile and run the c code so that everything will work. Im gonna make a mspaint-like program in java that exports to the format.
 
+# Installation/Compilation
+
+Here are the commands to compile both the image viewer and the image creator.
+**Image Viewer**
+
+```javac viewer.java``` or ```java viewer.java```(compiles it JIT)
+
+**Image Creator**
+
+```gcc -O3 main.c -o imgcreator```
+
+These were mainly for Linux since i dont know what compiler Windows or macOS uses so just use WSL or cygwin GCC on Windows or idk clang or LLVM on macOS if it even allows you to do so.
