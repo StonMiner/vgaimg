@@ -2,10 +2,15 @@
 
 # FAQ
 **What is this?**
+
 Its a custom uncompressed image format that includes VGA colors(16 colors).
+
 **Is there real use for this**
+
 no.
+
 **Why are you using java? why not something faster like C/C++?**
+
 I already do use c for creating the file,but i use java for displaying because theres no good UI API made for C or C++. i also hate C++. And GTK is way too hard for something like this.I couldve used OpenGL immeadiete since its easier but i dont want to deal with images and exporting those images to OpenGL. TL;DR no good UI that is easy.
 
 
@@ -32,6 +37,7 @@ Well right now there is no picture editor that saves to this format so you have 
 # Installation/Compilation
 
 Here are the commands to compile both the image viewer and the image creator.
+
 **Image Viewer**
 
 ```javac viewer.java``` or ```java viewer.java```(compiles it JIT)
